@@ -10,12 +10,15 @@ public class Score : MonoBehaviour {
 
     private void Update()
     {
+ 
         scoreDisplay.text = score.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        score++;
+        Debug.Log(score); //1
+        score++; //2
         Destroy(other.gameObject);
+
     }
 }
