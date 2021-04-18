@@ -484,7 +484,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a3cbb9405c2aeb0489d3adb67f7e408b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0fe8e206a7dff514db1e58244c0c134f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -620,7 +620,7 @@ MonoBehaviour:
   - Of course! That's what friends are for!
   - The next town, FireMing is 1000 km from here.
   - Because of the weather here, transportation is very limited.
-  - So I suggest you walk instead!
+  - And I don't think there are a lot of cars around.
   - Alright, I see. Thanks Snowy!
   - You're welcome!
   - Be careful of the snowballs!
