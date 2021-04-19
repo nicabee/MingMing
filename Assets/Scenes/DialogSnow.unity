@@ -226,8 +226,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000015258789, y: 0.000011444092}
+  m_SizeDelta: {x: 70.6, y: 17.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264611556
 MonoBehaviour:
@@ -249,12 +249,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_Font: {fileID: 12800000, guid: f21c6bf862d9a2649bf5dadded934cfe, type: 3}
+    m_FontSize: 32
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 43
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -462,7 +462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -237, y: -170.55}
+  m_AnchoredPosition: {x: -335, y: -186}
   m_SizeDelta: {x: 230.3, y: 219.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682531505
@@ -530,7 +530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 333, y: -157}
+  m_AnchoredPosition: {x: 333, y: -172.45001}
   m_SizeDelta: {x: 262.4, y: 247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &703170665
@@ -613,18 +613,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - Hey Mingming! Fancy meeting you here in Snowming!
-  - Yeah. I seem to have been lost.
-  - Oh no! Your home is very far from where we are.
-  - Will you please help me find my way back home?
-  - Of course! That's what friends are for!
-  - The next town, FireMing is 1000 km from here.
-  - Because of the weather here, transportation is very limited.
-  - And I don't think there are a lot of cars around.
-  - Alright, I see. Thanks Snowy!
-  - You're welcome!
-  - Be careful of the snowballs!
-  - They can decrease your nine lives!
+  - 'SoyMing: Hey Mingming! Fancy meeting you here in Snowming!'
+  - 'MingMing: Yeah. I seem to have been lost.'
+  - 'SoyMing: Oh no! Your home is very far from where we are.'
+  - 'MingMing: Will you please help me find my way back home?'
+  - 'SoyMing: Of course! That''s what friends are for!'
+  - 'SoyMing: The next town, FireMing is 1000 km from here.'
+  - 'SoyMing: Because of the weather here, transportation is very limited. And I don''t
+    think there are a lot of cars around.'
+  - 'SoyMing: Be careful of the snowballs on the way. They can decrease your nine
+    lives!'
+  - 'MingMing: Alright, I see. Thanks SoyMing!'
+  - 'SoyMing: You''re welcome!'
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}
@@ -662,8 +662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69, y: 114}
-  m_SizeDelta: {x: 412.8, y: 65}
+  m_AnchoredPosition: {x: 13, y: 88}
+  m_SizeDelta: {x: 470.8, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &815617891
 MonoBehaviour:
@@ -782,7 +782,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000030517578, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &980736560
@@ -805,9 +805,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 4f768a15be0f47f47987ec882f3c4c9e, type: 3}
+    m_FontSize: 33
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -856,8 +856,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.4, y: 46.25}
-  m_SizeDelta: {x: 1101.1, y: 159.5}
+  m_AnchoredPosition: {x: 13, y: -21.8}
+  m_SizeDelta: {x: 1101.1, y: 295.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1439894915
 MonoBehaviour:
@@ -879,8 +879,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_Font: {fileID: 12800000, guid: f21c6bf862d9a2649bf5dadded934cfe, type: 3}
+    m_FontSize: 34
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
@@ -1000,8 +1000,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 429, y: 15}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 441, y: 0.0000085831}
+  m_SizeDelta: {x: 200.3, y: 50.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830630488
 MonoBehaviour:
