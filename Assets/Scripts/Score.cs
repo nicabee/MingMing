@@ -17,7 +17,7 @@ public class Score : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other)
     {
         //Debug.Log(score); //1
-        score++; //2
+        score--; //2
         Destroy(other.gameObject);
 
     }
