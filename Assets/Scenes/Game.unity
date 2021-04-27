@@ -250,7 +250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -461.4, y: 248.2}
+  m_AnchoredPosition: {x: -444, y: 248.15}
   m_SizeDelta: {x: 138.9, y: 125.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162786152
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTimeBtwSpawns: 2
-  timeDecrease: 0.02
+  timeDecrease: 0
   minTime: 0.5
   obstacleTemplate:
   - {fileID: 1898355023154060, guid: 52856c1901f1ba44ba9ff76e820ec182, type: 2}
