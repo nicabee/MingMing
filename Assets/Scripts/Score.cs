@@ -8,10 +8,17 @@ public class Score : MonoBehaviour {
     public int score;
     public Text scoreDisplay;
 
+    public GameObject spawner;
+    public GameObject proceedButton;
     private void Update()
     {
  
         scoreDisplay.text = score.ToString();
+        if(score == 0){
+            spawner.SetActive(false);
+            proceedButton.SetActive(true);
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
