@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 264611555}
   - component: {fileID: 264611557}
   - component: {fileID: 264611556}
+  - component: {fileID: 264611558}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -241,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -250,10 +251,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: f21c6bf862d9a2649bf5dadded934cfe, type: 3}
-    m_FontSize: 32
+    m_FontSize: 34
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 43
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -268,6 +269,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 264611554}
+--- !u!114 &264611558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 264611554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 4.51, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &462382732
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,7 +633,7 @@ MonoBehaviour:
   - 'SoyMing: Oh no! Your home is very far from where we are.'
   - 'MingMing: Will you please help me find my way back home?'
   - 'SoyMing: Of course! That''s what friends are for!'
-  - 'SoyMing: The next town, FireMing is 250 km from here.'
+  - 'SoyMing: The next town, SaharaMing is 200 km from here.'
   - 'SoyMing: Because of the weather here, transportation is very limited. And I don''t
     think there are a lot of cars around.'
   - 'SoyMing: Be careful of the snowballs on the way. They can decrease your nine
@@ -760,6 +775,7 @@ GameObject:
   - component: {fileID: 980736559}
   - component: {fileID: 980736561}
   - component: {fileID: 980736560}
+  - component: {fileID: 980736562}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -797,7 +813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -806,10 +822,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4f768a15be0f47f47987ec882f3c4c9e, type: 3}
-    m_FontSize: 33
+    m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -824,6 +840,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 980736558}
+--- !u!114 &980736562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 980736558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 4.51, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1439894913
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,6 +864,7 @@ GameObject:
   - component: {fileID: 1439894914}
   - component: {fileID: 1439894916}
   - component: {fileID: 1439894915}
+  - component: {fileID: 1439894917}
   m_Layer: 5
   m_Name: Dialog1
   m_TagString: Untagged
@@ -871,7 +902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -898,6 +929,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1439894913}
+--- !u!114 &1439894917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439894913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 4.51, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1742014712
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +997,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e7aa5c5dd8b8a1c4fad7c208f0e4575d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 883514b42b031fe40ba67fc3d66f0508, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -983,7 +1028,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1830630487
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1023,9 +1068,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.20392157}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.4392157}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.23137255}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.4392157}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
