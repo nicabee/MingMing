@@ -747,8 +747,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2999005, y: 0}
-  m_SizeDelta: {x: 604.6, y: 73}
+  m_AnchoredPosition: {x: 2.2999005, y: -4.175}
+  m_SizeDelta: {x: 604.6, y: 81.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &832417094
 MonoBehaviour:
@@ -971,6 +971,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 500
   scoreDisplay: {fileID: 2143993018}
+  spawner: {fileID: 0}
+  proceedButton: {fileID: 0}
 --- !u!50 &1045463234
 Rigidbody2D:
   serializedVersion: 4
