@@ -14,17 +14,22 @@ public class Score : MonoBehaviour {
     {
  
         scoreDisplay.text = score.ToString();
-        if(score == 0){
-            spawner.SetActive(false);
+        if(score <= 0){
+            
             proceedButton.SetActive(true);
             Destroy(gameObject);
+        }else if (score <= 2){
+            spawner.SetActive(false);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         //Debug.Log(score); //1
-        score--; //2
+        if(score >= 1){
+            score--; //2
+        }
+        
         Destroy(other.gameObject);
 
     }

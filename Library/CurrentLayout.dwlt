@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 68
+  controlID: 65
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 280
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 268
     height: 364
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1086
     height: 635
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 28
+  controlID: 66
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1086
     height: 364
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 106
+  controlID: 67
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,11 +417,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Monica Barrientos\Documents\a 3rd Yr 2nd Sem\Game Dev\Ming
     Ming\mingmingming\Mingming
@@ -429,9 +429,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 107}
-    m_SelectedIDs: ce0d0000
-    m_LastClickedID: 3534
-    m_ExpandedIDs: 00000000f6080000ce0d0000c40e000000ca9a3bffffff7f
+    m_SelectedIDs: 6c090000
+    m_LastClickedID: 2412
+    m_ExpandedIDs: 00000000f8080000d80d0000ce0e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6080000ce0d0000c40e0000
+    m_ExpandedIDs: 00000000f8080000d80d0000ce0e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,7 +487,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000008090000000000002e0b0000340c0000
+    m_ExpandedInstanceIDs: c623000008090000000000002e0b0000340c000058060000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,21 +577,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 1ceafdff9e14feffac15feff6ea5feffa2b9feff20bafeffa0bbfeffa6c5feffcac6feffdcd1feff0801ffffd405ffff8a1affff2829ffff2a2effffd837ffffa4c0ffffe4ddfffff0fbffff000000004831000096310000a4330000143400006034000012350000ce350000803700003c380000ee3900005c3b00002c3d0000363d0000583d0000703d0000fe3d0000164800006a480000
+    m_ExpandedIDs: 1a9af4ffeabef4fff2d4f4ff72e0f4ff802ff5ff6236f5ff623ef5ff024ef5ffaa52f5ffb28cf5ff6a90f5ff9291f5ff6216f6ffb643f7ff4a4ef8ff32a7f8ff76a9f8ff24b8f8ff6cbaf8ffcef4f8ffde08f9ffee0bf9ffd61ef9ffa894faff70b7faff32d5fafffae8faff92f2faffe600fbffe401fbff48e2fcff5ae7fcffa001fdffe8eafeff38ecfeff8cf0feffa289ffffcef1ffffc4f3ffff96f5fffff0fbffff00000000f831000092330000e036000022370000c6370000a2380000ca380000ec380000204200001e45000046450000684500009c4b0000084d00006052000008560000e0590000085a00007a610000fa630000fc680000046a0000726c0000e67300002277000096770000188000008c800000b4800000fe80000026810000ec810000d0820000f8820000f6830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Play
+      m_OriginalName: Play
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 32948
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -632,9 +632,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 404.4198, y: 180.83824, z: 0.27599347}
+    m_Target: {x: 402.03873, y: 181.45055, z: -1.1503844}
     speed: 2
-    m_Value: {x: 404.4198, y: 180.83824, z: 0.27599347}
+    m_Value: {x: 402.03873, y: 181.45055, z: -1.1503844}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -666,9 +666,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 240.82857
+    m_Target: 380.54053
     speed: 2
-    m_Value: 240.82857
+    m_Value: 380.54053
   m_Ortho:
     m_Target: 1
     speed: 2
