@@ -44,4 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogLvl4End.unity
     guid: a22b969bd2ba25840a4f89fb523e3f64
+  - enabled: 1
+    path: Assets/Scenes/DialogLvl5.unity
+    guid: 8a143c7523f97a34ab51e13c21183a0d
+  - enabled: 1
+    path: Assets/Scenes/GameLvl5.unity
+    guid: e947409765c8d574b8e4125d364cb9ea
+  - enabled: 1
+    path: Assets/Scenes/DialogLvl5End.unity
+    guid: feca97758f923c3478728e733cc938c1
   m_configObjects: {}
