@@ -22,6 +22,6 @@ In every level, Mingming has to reach 0 distance which simply means that she is 
 
 *To be added*
 
-### Screenshots
+## Project Status
 
-![MingMing underwater](/Assets/Screenshots/sample.jpg){:height="300px" width="700px"}
+Development ongoing!
