@@ -398,9 +398,9 @@ MonoBehaviour:
   timeDecrease: 0
   minTime: 0.5
   obstacleTemplate:
-  - {fileID: 1898355023154060, guid: cdb27e1c3f4de6942b125619b28bbbdd, type: 2}
-  - {fileID: 1188669705818162, guid: ffb0781d848295a42afcb284147b271c, type: 2}
-  - {fileID: 1065693408441526, guid: 7da546bb55b88e64996d43ef2f94046b, type: 2}
+  - {fileID: 1898355023154060, guid: 72da914a2dd13ae4cae58df3724f6d4a, type: 2}
+  - {fileID: 1065693408441526, guid: fc28ea57246a5694ab335d32bc0c90dd, type: 2}
+  - {fileID: 1188669705818162, guid: c1458c26422f53f4dbc19f594adedf87, type: 2}
 --- !u!1 &290751072
 GameObject:
   m_ObjectHideFlags: 0
