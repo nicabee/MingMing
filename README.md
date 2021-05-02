@@ -18,6 +18,10 @@ In every level, Mingming has to reach 0 distance which simply means that she is 
 * C#
 
 
-### Assets used
+## Assets used
 
 *To be added*
+
+### Screenshots
+
+![MingMing underwater](/Assets/Screenshots/samplegame.jpg)
