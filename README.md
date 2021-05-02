@@ -12,6 +12,12 @@ In every level, Mingming has to reach 0 distance which simply means that she is 
 * Unity Version 2018.1.8f1
 * Adobe Photoshop CC 2015 (For the Assets)           
 
+
+## Language Used
+
+* C#
+
+
 ### Assets used
 
 *To be added*
