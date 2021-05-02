@@ -644,6 +644,8 @@ MonoBehaviour:
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}
+  Anim: {fileID: 2106112298}
+  transitionTime: 1
 --- !u!1 &815617889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,3 +1241,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1830630486}
+--- !u!95 &2106112298 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 95973529722545568, guid: 58428ccd5afbebd4d9a210d0460e1e59,
+    type: 2}
+  m_PrefabInternal: {fileID: 1475462530}

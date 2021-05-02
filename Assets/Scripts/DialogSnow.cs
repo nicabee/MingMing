@@ -14,6 +14,9 @@ public class DialogSnow : MonoBehaviour {
 	public GameObject continueButton;
 	public GameObject playButton;
 
+
+	public Animator Anim;
+	public float transitionTime = 1f;  
 	void Start(){
 		StartCoroutine(Type());
 	}
@@ -45,8 +48,15 @@ public class DialogSnow : MonoBehaviour {
 			playButton.SetActive(true);
 		}
 	}
+
+	IEnumerator Fade(){
+		Anim.SetTrigger("Start");
+		yield return new WaitForSeconds(transitionTime);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+	}
 	public void PlayGame(){
 		Debug.Log("Clicked3");
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+		StartCoroutine(Fade());
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
 	}
 }
