@@ -24,4 +24,4 @@ In every level, Mingming has to reach 0 distance which simply means that she is 
 
 ### Screenshots
 
-![MingMing underwater](/Assets/Screenshots/sample.jpg)
+![MingMing underwater](/Assets/Screenshots/sample.jpg){:height="300px" width="700px"}
