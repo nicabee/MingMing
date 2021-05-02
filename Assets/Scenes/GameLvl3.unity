@@ -5099,9 +5099,9 @@ MonoBehaviour:
   timeDecrease: 0
   minTime: 0.5
   obstacleTemplate:
-  - {fileID: 1898355023154060, guid: cdb27e1c3f4de6942b125619b28bbbdd, type: 2}
-  - {fileID: 1188669705818162, guid: ffb0781d848295a42afcb284147b271c, type: 2}
-  - {fileID: 1065693408441526, guid: 7da546bb55b88e64996d43ef2f94046b, type: 2}
+  - {fileID: 1898355023154060, guid: 16441321b32734341a64abe15ce08eb9, type: 2}
+  - {fileID: 1188669705818162, guid: 11a75fd2d96f36b42889d4a99dc1042b, type: 2}
+  - {fileID: 1065693408441526, guid: 41b9e8296d6372549b29176b3827044d, type: 2}
 --- !u!1 &280502715
 GameObject:
   m_ObjectHideFlags: 0
@@ -5834,7 +5834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bdf5f7c5cc3de4c84fe0c53271ce5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 10
+  score: 30
   scoreDisplay: {fileID: 2143993018}
   spawner: {fileID: 220732720}
   proceedButton: {fileID: 1815449066}
