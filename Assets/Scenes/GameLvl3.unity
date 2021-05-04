@@ -5095,7 +5095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57bde8976971564fb942420bf7e0099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimeBtwSpawns: 1.3
+  startTimeBtwSpawns: 1.1
   timeDecrease: 0
   minTime: 0.5
   obstacleTemplate:
@@ -5508,7 +5508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01993d00f2d9d874da6f2a54496ff33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundSpeed: 0.65
+  backgroundSpeed: 0.75
   backgroundRenderer: {fileID: 694922245}
 --- !u!23 &694922245
 MeshRenderer:

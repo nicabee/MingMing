@@ -18,7 +18,7 @@ public class Score : MonoBehaviour {
             
             proceedButton.SetActive(true);
             Destroy(gameObject);
-        }else if (score <= 2){
+        }else if (score == 2 || score < 2){
             spawner.SetActive(false);
         }
     }

@@ -595,7 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57bde8976971564fb942420bf7e0099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimeBtwSpawns: 2
+  startTimeBtwSpawns: 1.6
   timeDecrease: 0
   minTime: 0.5
   obstacleTemplate:
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01993d00f2d9d874da6f2a54496ff33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundSpeed: 0.5
+  backgroundSpeed: 0.55
   backgroundRenderer: {fileID: 444701699}
 --- !u!95 &448575581 stripped
 Animator:
