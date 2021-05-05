@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StoryLine4.unity
     guid: c25b840cc5f87a043b022cdbface92ad
   - enabled: 1
+    path: Assets/Scenes/StoryLine5.unity
+    guid: c7215b4075f2cad47b6930578715bb75
+  - enabled: 1
     path: Assets/Scenes/DialogSnow.unity
     guid: c79fdef8083eeeb4a8c163a4f96996fc
   - enabled: 1
