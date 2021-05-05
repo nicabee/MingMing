@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: e2dc4863ff3ee5c458d05270e765bc72
   - enabled: 1
+    path: Assets/Scenes/StoryLine1.unity
+    guid: 46fbb689cc01ac540872efbabcd80c98
+  - enabled: 1
     path: Assets/Scenes/DialogSnow.unity
     guid: c79fdef8083eeeb4a8c163a4f96996fc
   - enabled: 1
