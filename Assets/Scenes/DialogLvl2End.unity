@@ -629,13 +629,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'GodMing Monserate: You did it..'
-  - 'MingMing: ?? GodMing..? Is that you?'
-  - 'GodMing Monserate: .....'
-  - 'MingMing: .....'
-  - 'GodMing Monserate: .....'
-  - 'MingMing: ....'
-  - 'MingMing: Thank you.. GodMing..'
+  - "GodMing: That was amazing, young traveler! I haven\u2019t seen anyone as cunning
+    and fast as you are. You have a long way to go."
+  - 'MingMing: GodMing? Is that you? How did you get here so fast?'
+  - 'GodMing: I am the protector of the SaharaMing desert. I am one with the desert. '
+  - "MingMing: Couldn\u2019t you have made an easy path for me through the desert?"
+  - 'GodMing: No adventure is ever rewarding if you took the easy path. Now go to
+    the BeachMing and you will be closer to your goal.'
+  - 'MingMing: Thank you GodMing I hope to see you again!'
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}

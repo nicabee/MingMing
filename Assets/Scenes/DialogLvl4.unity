@@ -743,17 +743,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'JerbyMing: Hallooo'
-  - 'MingMing: hi JerbyMing!!'
-  - 'JerbyMing: Hallooo'
-  - 'MingMing: hi JerbyMing!!'
-  - 'JerbyMing: Hallooo'
-  - 'MingMing: hi JerbyMing!!'
-  - 'JerbyMing: Hallooo'
-  - 'MingMing: hi JerbyMing!!'
-  - 'JerbyMing: Hallooo'
-  - 'MingMing: hi JerbyMing!!'
-  - 'JerbyMing: Byeee'
+  - 'JerbyMing: I see you have crossed the BeachMing with the help of MychMing. I
+    am JerbyMing, a loyal servant of MychMing.'
+  - 'MingMing: Yes Goddess MychMing was wonderful and she has helped me cross the
+    beach. Are you here to help me cross UnderMing?'
+  - 'JerbyMing: It is I, who actually needs your help. '
+  - 'MingMing: Sure thing, I would be happy to help.'
+  - 'JerbyMing: Both the sharks and octopus have decided to start a coup against MychMing
+    help me by defeating them by taking me with you to the end of the UnderMing.'
+  - "MingMing: Okay if that\u2019s the situation then let\u2019s get going."
+  - "JerbyMing: Right, I\u2019ll be guiding you every step of the way."
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}

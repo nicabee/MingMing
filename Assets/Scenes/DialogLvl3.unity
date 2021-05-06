@@ -629,17 +629,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'MychMing: Hello mAm'
-  - 'MingMing: mAm!!!!'
-  - 'MychMing: Hello mAm2'
-  - 'MingMing: mAm!!!!2'
-  - 'MychMing: Hello mAm3'
-  - 'MingMing: mAm!!!!3'
-  - 'MychMing: Hello mAm4'
-  - 'MingMing: mAm!!!!4'
-  - 'MychMing: Hello mAm5'
-  - 'MingMing: mAm!!!!5'
-  - 'MychMing: Hello mAm6'
+  - 'MychMing: Hello mamser!'
+  - 'MingMing: Hi! Who are you? '
+  - 'MychMing: I am MychMing UwU. The Goddess of the Ocean. I command all the lifeforms
+    in the ocean.'
+  - MingMing:Amazing! Do you know GodMing then?
+  - 'MychMing: Ah that bastard GodMing. He is sometimes helpful to you cattos but
+    most of the time not as he throws away his sand here on my beach.'
+  - 'MingMing: Oh so you are enemies?'
+  - 'MychMing: Sometimes yes and sometimes no.'
+  - 'MingMing: Okay. Can you help me get through the BeachMing?'
+  - "MychMing: Let\u2019s be careful as humans have massacred my beautiful beach and
+    thrown away all of their beach balls and umbrellas randomly."
+  - 'MingMing: Roger that.'
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}
