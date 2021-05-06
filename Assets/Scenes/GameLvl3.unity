@@ -5099,10 +5099,12 @@ MonoBehaviour:
   timeDecrease: 0
   minTime: 0.5
   obstacleTemplate:
-  - {fileID: 1898355023154060, guid: 16441321b32734341a64abe15ce08eb9, type: 2}
-  - {fileID: 1188669705818162, guid: 11a75fd2d96f36b42889d4a99dc1042b, type: 2}
-  - {fileID: 1065693408441526, guid: 41b9e8296d6372549b29176b3827044d, type: 2}
-  - {fileID: 1188669705818162, guid: 0e1ca4c380385fe40a8d1a3e0e4c46f4, type: 2}
+  - {fileID: 1898355023154060, guid: 5a5626b856f97bf4ab7a8ebe6b036532, type: 2}
+  - {fileID: 1188669705818162, guid: c6bc74b4ac13b84498d7a3e44689a2d4, type: 2}
+  - {fileID: 1065693408441526, guid: 09a288f4fbe5bc544ab0b61a53e646ad, type: 2}
+  - {fileID: 1898355023154060, guid: bf70eafcccb8a9a41b22b25964496b92, type: 2}
+  - {fileID: 1188669705818162, guid: 93d377e3b030ed94485e90420b8b31a0, type: 2}
+  - {fileID: 1065693408441526, guid: 0d027736d05229649a9184e19446cd18, type: 2}
 --- !u!1 &280502715
 GameObject:
   m_ObjectHideFlags: 0
