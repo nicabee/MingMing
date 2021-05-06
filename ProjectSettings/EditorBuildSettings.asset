@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogLvl5End.unity
     guid: feca97758f923c3478728e733cc938c1
+  - enabled: 1
+    path: Assets/Scenes/StoryLine6.unity
+    guid: 568c2826c3d720d42a459f6f578dccc9
   m_configObjects: {}
