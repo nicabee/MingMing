@@ -398,9 +398,12 @@ MonoBehaviour:
   timeDecrease: 0
   minTime: 0.5
   obstacleTemplate:
-  - {fileID: 1898355023154060, guid: cdb27e1c3f4de6942b125619b28bbbdd, type: 2}
-  - {fileID: 1188669705818162, guid: ffb0781d848295a42afcb284147b271c, type: 2}
-  - {fileID: 1065693408441526, guid: 7da546bb55b88e64996d43ef2f94046b, type: 2}
+  - {fileID: 1898355023154060, guid: e31c3b73c48d88f4ca55d386a3cba3ff, type: 2}
+  - {fileID: 1188669705818162, guid: a39424deae369d24ebe6faac600653e3, type: 2}
+  - {fileID: 1065693408441526, guid: 6f648bdba837d0948853a3e704d275a5, type: 2}
+  - {fileID: 1898355023154060, guid: 24153cfeb1ee2e24683558534be37148, type: 2}
+  - {fileID: 1188669705818162, guid: f0476088c705e9d408b2ebcaedb39cf1, type: 2}
+  - {fileID: 1065693408441526, guid: 29d70b91d8892b74ba9243d50585339e, type: 2}
 --- !u!1 &254524229
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,6 +2366,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316232901032808, guid: 58428ccd5afbebd4d9a210d0460e1e59, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58428ccd5afbebd4d9a210d0460e1e59, type: 2}
