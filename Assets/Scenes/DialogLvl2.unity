@@ -629,18 +629,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'GodMing Monserate: ...'
-  - 'MingMing: ?? GodMing..? Is that you?'
-  - 'GodMing Monserate: .....'
-  - 'MingMing: .....'
-  - 'GodMing Monserate: Mingming! What brings you here to our beautiful town, SaharaMing?'
-  - 'MingMing: ..I''m trying to find my way back home.'
-  - 'GodMing Monserate: Sangko sa langit INDAY'
-  - 'GodMing Monserate: I will help you..'
-  - 'GodMing Monserate: Just be careful of the scorpions and cacti around.. And you''ll
-    be fine..'
-  - 'MingMing: Okay.. Thanks.. GodMing..'
-  - 'GodMing Monserate: .....'
+  - 'GodMing: Hello young traveler! You seem to be lost.'
+  - 'Mingming: Yes I am. Who are you?'
+  - 'GodMing: I am GodMing protector of the SaharaMing desert. I have met plenty of
+    travelers who have lost their way and I am here to guide them across the desert.'
+  - 'MingMing: Wow! Can you please help me GodMing?'
+  - 'GodMing: Yes just take the path behind me and you will reach the beach. Be careful
+    of the flying cacti and scorpions.'
+  - 'MingMing: Thank you! I''ll be careful.'
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}

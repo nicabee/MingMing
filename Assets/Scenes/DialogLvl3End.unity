@@ -743,17 +743,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'MychMing: Bye mAm'
-  - 'MingMing: mAm!!!!'
-  - 'MychMing: Bye mAm2'
-  - 'MingMing: mAm!!!!2'
-  - 'MychMing: Bye mAm3'
-  - 'MingMing: mAm!!!!3'
-  - 'MychMing: Bye mAm4'
-  - 'MingMing: mAm!!!!4'
-  - 'MychMing: Bye mAm5'
-  - 'MingMing: mAm!!!!5'
-  - 'MychMing: Bye mAm6'
+  - 'MychMing: That was difficult!'
+  - 'MingMing: Yes it was. Glad we survived.'
+  - 'MychMing: All these trash thrown by humans. They need to be taught a lesson!'
+  - 'MingMing: Not all humans are bad.'
+  - 'MychMing: How can you say so? Look what they have done to my beautiful beach!'
+  - 'MingMing: Some humans are bad but not all. My owner takes care of me and the
+    environment so much.'
+  - "MychMing: I\u2019ll take your word for it. This owner of yours\u2026  I\u2019d
+    love to meet them someday."
+  - 'MingMing: Sure thing. My owner would love to meet a beautiful catto as you are.'
+  - 'MychMing: Goodluck with your adventure MingMing.'
+  - 'MingMing: Thank you MychMing UwU.'
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}

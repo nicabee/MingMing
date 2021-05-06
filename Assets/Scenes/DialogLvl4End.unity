@@ -629,17 +629,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'JerbyMing: Bye'
-  - 'MingMing: bye JerbyMing!!'
-  - 'JerbyMing: Bye'
-  - 'MingMing: bye JerbyMing!!'
-  - 'JerbyMing: Bye'
-  - 'MingMing: bye JerbyMing!!'
-  - 'JerbyMing: Bye'
-  - 'MingMing: bye JerbyMing!!'
-  - 'JerbyMing: Bye'
-  - 'MingMing: bye JerbyMing!!'
-  - 'JerbyMing: Bye'
+  - 'JerbyMing: Thank you for helping me reach the end of UnderMing safely. I should
+    now be able to talk to the leader of the coup and convince them to end this war
+    peacefully. '
+  - 'MingMing: Okay goodluck.'
+  - 'JerbyMing: If you take a right from here you will reach LavaMing. '
+  - 'MingMing: Thank you JerbyMing.'
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}

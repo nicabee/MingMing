@@ -743,17 +743,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'HotMing: byee'
-  - 'MingMing: byee hottie'
-  - 'HotMing: byee'
-  - 'MingMing: byee hottie'
-  - 'HotMing: byee'
-  - 'MingMing: byee hottie'
-  - 'HotMing: byee'
-  - 'MingMing: byee hottie'
-  - 'HotMing: byee'
-  - 'MingMing: byee hottie'
-  - 'HotMing: byee'
+  - 'HotMing: That was a pretty intense trip back there glad we made it back in one
+    piece, thank you MingMing for your help.'
+  - 'MingMing: No worries, always happy to help anyone in need. '
+  - 'HotMing: For your assistance, I shall grant you a way back home. Just tell me
+    when you are ready. '
+  - 'MingMing: You sure bet I am, thank you LavaMing!'
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}

@@ -743,17 +743,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'HotMing: Hallooo'
-  - 'MingMing: hi hottie'
-  - 'HotMing: Hallooo'
-  - 'MingMing: hi hottie'
-  - 'HotMing: Hallooo'
-  - 'MingMing: hi hottie'
-  - 'HotMing: Hallooo'
-  - 'MingMing: hi hottie'
-  - 'HotMing: Hallooo'
-  - 'MingMing: hi hottie'
-  - 'HotMing: Hallooo'
+  - 'HotMing: What are you doing here in my domain turn away now or face the death
+    of a hundred degree burn!'
+  - "MingMing: Please no don\u2019t hurt me, I just came here because I want to go
+    back home."
+  - "HotMing: If that\u2019s the case it\u2019s an eye for an eye you help me with
+    what I want and I help you. "
+  - 'MingMing: Very well then, what do you need from me? '
+  - 'HotMing: I am HotMing protector of LavaMing. I need you to help me get across
+    LavaMing and I cannot do it alone and it is impossible with these vicious snakes
+    and scorpions.'
+  - 'MingMing: I guess we both want the same thing and that is to get to the other
+    side.'
+  - 'HotMing: We better get going. '
   typingSpeed: 0
   continueButton: {fileID: 1830630486}
   playButton: {fileID: 815617889}
