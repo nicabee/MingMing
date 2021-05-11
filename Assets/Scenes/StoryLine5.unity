@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 90863459}
   - component: {fileID: 90863458}
   - component: {fileID: 90863457}
+  - component: {fileID: 90863460}
   - component: {fileID: 90863456}
   m_Layer: 0
   m_Name: Main Camera
@@ -194,6 +195,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &90863460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 90863455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee6960cd5752ab4a84cdbfdc8d9c39d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &462382732
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,15 +777,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58428ccd5afbebd4d9a210d0460e1e59, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1584517590
+--- !u!1 &1528243440
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1584517592}
-  - component: {fileID: 1584517591}
+  - component: {fileID: 1528243442}
+  - component: {fileID: 1528243441}
+  - component: {fileID: 1528243443}
   m_Layer: 0
   m_Name: BGMusic
   m_TagString: Untagged
@@ -781,12 +794,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &1584517591
+--- !u!82 &1528243441
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1584517590}
+  m_GameObject: {fileID: 1528243440}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -876,12 +889,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &1584517592
+--- !u!4 &1528243442
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1584517590}
+  m_GameObject: {fileID: 1528243440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -889,6 +902,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1528243443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528243440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c8f51ed562b874980acf74bb23baa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1742014712
 GameObject:
   m_ObjectHideFlags: 0
