@@ -609,7 +609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1439894915}
   sentences:
-  - 'MommyMing: I thank the gods for bringing you back home safely, Ming.'
+  - 'MommyMing: I thank the gods for bringing you back home safely, Ming. May they
+    always guide us.'
   - 'BbyMing: I missed you, my dear sister.'
   - 'DaddyMing: Now we can all eat together.'
   - 'MingMing: I love you Mom, Dad, and BbyMing!'

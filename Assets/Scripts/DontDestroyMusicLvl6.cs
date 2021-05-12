@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DontDestroyMusicLvl6 : MonoBehaviour
+{
+    private static DontDestroyMusicLvl6 instance = null;
+    public static DontDestroyMusicLvl6 Instance
+    {
+        get {return instance; }
+    }
+
+    // Update is called once per frame
+    void Awake()
+    {
+        if(instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        else
+        {
+            instance = this;
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+    }
+}
