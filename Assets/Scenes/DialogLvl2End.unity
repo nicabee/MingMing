@@ -295,6 +295,7 @@ GameObject:
   - component: {fileID: 462382734}
   - component: {fileID: 462382733}
   - component: {fileID: 462382737}
+  - component: {fileID: 462382738}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -374,6 +375,7 @@ RectTransform:
   - {fileID: 703170664}
   - {fileID: 682531504}
   - {fileID: 709435822}
+  - {fileID: 1077933471}
   - {fileID: 1830630487}
   - {fileID: 815617890}
   - {fileID: 908004718}
@@ -395,6 +397,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 283f80046ea70d04f84cef121b884fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &462382738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462382732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c487c32790a62c94a8be3906806836b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &470878706
@@ -727,7 +740,7 @@ RectTransform:
   m_Children:
   - {fileID: 264611555}
   m_Father: {fileID: 462382736}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1035,6 +1048,121 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
   m_EffectDistance: {x: 4.51, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1001 &1077933470
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 462382736}
+    m_Modifications:
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -216
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -66.03894
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 117.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114795196037879994, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 462382738}
+    - target: {fileID: 114795196037879994, guid: 95259ec55bc72284189aa5a35da0cae5,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadMainMenu
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 95259ec55bc72284189aa5a35da0cae5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!224 &1077933471 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224162086163299624, guid: 95259ec55bc72284189aa5a35da0cae5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1077933470}
 --- !u!1 &1439894913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,7 +1464,7 @@ RectTransform:
   m_Children:
   - {fileID: 980736559}
   m_Father: {fileID: 462382736}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
