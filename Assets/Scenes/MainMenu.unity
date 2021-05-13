@@ -332,7 +332,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1524738438}
+      - m_Target: {fileID: 1524738439}
         m_MethodName: ContinueGame
         m_Mode: 1
         m_Arguments:
@@ -1084,6 +1084,7 @@ GameObject:
   - component: {fileID: 975116691}
   - component: {fileID: 975116690}
   - component: {fileID: 975116689}
+  - component: {fileID: 975116693}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1176,6 +1177,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &975116693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 975116688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb355cc70fe16440a9233b27516c1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1065310961
 Prefab:
   m_ObjectHideFlags: 0
@@ -1517,6 +1529,7 @@ GameObject:
   - component: {fileID: 1524738436}
   - component: {fileID: 1524738437}
   - component: {fileID: 1524738438}
+  - component: {fileID: 1524738439}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -1567,6 +1580,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9d5df93b3694e646a9eb04377c15dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1524738439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1524738435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb355cc70fe16440a9233b27516c1f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1627905176

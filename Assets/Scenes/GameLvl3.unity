@@ -5697,6 +5697,7 @@ GameObject:
   - component: {fileID: 849731301}
   - component: {fileID: 849731296}
   - component: {fileID: 849731300}
+  - component: {fileID: 849731303}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5826,6 +5827,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283f80046ea70d04f84cef121b884fc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &849731303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849731295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c487c32790a62c94a8be3906806836b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1045463230
 GameObject:
   m_ObjectHideFlags: 0
@@ -5893,7 +5905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bdf5f7c5cc3de4c84fe0c53271ce5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 300
+  score: 10
   scoreDisplay: {fileID: 2143993018}
   spawner: {fileID: 220732720}
   proceedButton: {fileID: 1815449066}
@@ -7528,7 +7540,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 849731302}
+      - m_Target: {fileID: 849731303}
         m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
