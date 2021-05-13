@@ -244,12 +244,12 @@ Prefab:
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -867
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -281
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
@@ -264,22 +264,22 @@ Prefab:
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224151849602035310, guid: d19cbff043f2fe74c817d8bab1fd499e,
         type: 2}
@@ -300,6 +300,10 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnButtonPress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583903455281048, guid: d19cbff043f2fe74c817d8bab1fd499e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d19cbff043f2fe74c817d8bab1fd499e, type: 2}
