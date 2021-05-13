@@ -6223,7 +6223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bdf5f7c5cc3de4c84fe0c53271ce5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 20
+  score: 200
   scoreDisplay: {fileID: 2143993018}
   spawner: {fileID: 220732720}
   proceedButton: {fileID: 2068423442}

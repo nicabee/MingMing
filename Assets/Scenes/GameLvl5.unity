@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f3aa7f8ee879dd458f707c4d4d1f720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 50
+  score: 500
   scoreDisplay: {fileID: 2143993018}
   spawner: {fileID: 220732720}
   proceedButton: {fileID: 254524229}
